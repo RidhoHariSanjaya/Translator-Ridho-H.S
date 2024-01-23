@@ -18,8 +18,8 @@ body {
 }
 
 .container {
-    max-width: 300px;
-    width: 90%;
+    max-width: 690px;
+    width: 100%;
     padding: 30px;
     background: #fff;
     border-radius: 7px;
@@ -184,5 +184,11 @@ li,
 
     .controls .exchange {
         font-size: 14px;
+    }
+}
+
+@media (max-width: 360px) {
+    .container {
+        max-width: 300px;
     }
 }
